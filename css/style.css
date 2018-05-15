@@ -29,8 +29,8 @@ body {
 }
 
 .header__pre-nav {
-	height: 30px;
-	background-color: #4f5a6e;	
+	height: 44px;
+	background-color: #3d3d3d;	
 }
 
 .header__pre {	
@@ -46,19 +46,14 @@ body {
 	        justify-content: center;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        align-items: center;	
+	        align-items: center;
+	height: 44px;
+	width: 1000px;
+	margin: auto;
 }
 
 .header__elem-nav {
-	height: 20px;	
-	margin-top: 4px;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-.header__elem-nav_mid {
-	border-right: 1px solid white;
-	border-left: 1px solid white;
+	height: 20px;		
 }
 
 .flex {
@@ -74,33 +69,72 @@ body {
 	        justify-content: flex-start;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        align-items: center;
+	        align-items: center;	        
+}
+
+.header__elem-nav1 {
+	margin-left: 13px;
+	width: 310px;	
+	padding-left: 10px;	
+}
+
+.header__elem-nav_mid {
+	text-align: center;	
+	padding: 0 50px 0 50px;
+	width: 118px;
+	height: 25px;	
+	border-right: 0.5px solid #ebebeb;
+	border-left: 0.5px solid #ebebeb;
+}
+
+.header__elem-nav2 {
+	width: 190px;
+	margin: 0;
+	padding: 0;	
+	margin-right: 10px;
+}
+
+.flex2 {
+	margin-left: 30px;
 }
 
 .flex__elem {
 	list-style-type: none;
 	text-decoration: none;
-	background-color: #4f5a6e;
+	background-color: #3d3d3d;
 	border: none;
+	margin-right: 21px;
+	padding: 0;
+}
+
+.flex__elem1 {
+	margin-right: 0;
+}
+
+.flex__elem_buttonf {
+	margin-right: 27px;
 }
 
 .flex__text {
 	color: #FCFCFC;	
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 	vertical-align: center;
 	text-transform: lowercase;
+	padding: 0 5px;
 }
 
 .header__button {
-	background-color: orange;
+	background-color: #f98006;
 	color: #FCFCFC;
-	border: none;	
+	border: none;
+	height: 27px;
+	padding: auto 20px;	
 }
 
 .header__bottom_right {
-	margin-left: 1px;
-	padding: 1px 11px;
+	margin-left: 2px;
+	margin-right: 50px;	
 }
 
 .header__nav {
@@ -118,11 +152,15 @@ body {
 	    -ms-flex-align: center;
 	        align-items: center;	
 	width: auto;
-	margin: 0;
+	margin-right: 72px;
+	margin-top: 11px;
 	padding: 0;
 }
 
 .header__navigate {
+	width: auto;
+	height: 80px;
+	margin: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -136,16 +174,14 @@ body {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	background-color: #FCFCFC;
-	width: auto;
-	margin: 0;
+	background-color: #FCFCFC;	
 }
 
 .flex__elem-nav {	
 	list-style-type: none;	
 	background-color: #FCFCFC;	
-	padding: 5px;	
-	margin: 3px 0 0 20px;	
+	padding: 11px 15px;
+	margin: 3px 0 0 15px;	
 }
 
 .flex__text-nav {
@@ -164,19 +200,20 @@ body {
 }
 
 .header__logo{
-	width: 170px;
-	padding-top: 12px;	
+	width: 123px;
+	margin: 0;
+	padding-top: 6px;
+	padding-left: 0px;
 	text-align: right;
-
 }
 
 .header__elem-hidden {
-	width: 130px;	
+	width: 160px;	
 }
 
 .header__shadow {
-	-webkit-box-shadow: 0 5px 5px 5px lightgrey;
-	        box-shadow: 0 5px 5px 5px lightgrey;
+	-webkit-box-shadow: 0 3px 3px 3px lightgrey;
+	        box-shadow: 0 3px 3px 3px lightgrey;
 }
 
 -------------------------------------------/* MAIN CONTENT */
@@ -208,8 +245,7 @@ body {
 .main-content__text-h1 {
 	color:  #68ae00;
 	font-size: 60px;
-	font-weight: 400;
-	line-height: 60px;
+	font-weight: 400;	
 	margin: 0;
 }
 
@@ -218,6 +254,12 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main-content__text-pb {
+	font-size: 24px;
+	margin-top: 20px;
 }
 
 .fa-chevron-circle-left {
@@ -229,7 +271,7 @@ body {
 .main-content__button-sm {	
 	margin: 0;
 	padding: 0;
-	margin-right: 45px;	
+	margin-right: 50px;	
 	text-transform: lowercase;	
 	color: #f98006;
 	font-size: 20px; 
@@ -242,8 +284,7 @@ body {
 }
 
 .rotate {
-	cursor: pointer;
-	
+	cursor: pointer;	
 }
 
 .main__form {
@@ -317,20 +358,23 @@ body {
 .main-content__button-sm p {
 	margin: 0;
 	padding: 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
 }
 
 .fa-chevron-circle-left {
-	margin-right: 8px;
+	margin-right: 5px;
 }
 
 .main-content__button {
 	background-color: #f98006;
 	width: 214px;
 	height: 51px;	
-	margin: 50px 40px 30px 0;
+	margin: 56px 41px 33px 5px;
 	border: none;	
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 18px;
 	text-decoration: none;
@@ -353,11 +397,15 @@ body {
 	display: block;
 }
 
+.container__pre-header {
+	display: none;
+}
+
 .container__header {
 	width: auto;    
-    max-width: 950px;    		
+    max-width: 956px;    		
 	margin: auto;
-    padding: 132px 20px 41px 0;       
+    padding: 95px 10px 23px 0;       
 }
 
 .container__header_h1 {
@@ -378,8 +426,7 @@ body {
 .container__header_h1 {
 	text-align: right;
 	margin: 0;
-	padding: 0;
-	padding-right: 10px;
+	padding: 0;	
 }
 
 .container__image {
@@ -396,32 +443,42 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     padding: 0;
     width: auto;    
-    max-width: 950px;
-      	
+    max-width: 993px;
+    padding-left: 12px;
 }
 
 .container__image-li { 
-	margin: 0 auto;	  
+	width: 317px;
+	height: 167px;	
+	margin: 0 2px;
+	margin-bottom: 18px;  
     list-style: none;
+    background-size: cover;
+    text-align: center;
 }
 
 .container__image-li img { 	
-	width: 300px;
-	height: 157px; 
-	margin: 0;   
+	width: auto;
+    max-width: 100%;
+	margin: 0; 
+	padding: 0; 
+	box-shadow: none;  
 }
 
 
 ---------------
 
-.container-links {
-
+div.container-links {
+	width: auto;
+	height: 450px;
 }
 
 .container-link {
+	width: auto;
+	height: 450px;
 	margin: 0;
 	background: url(../img/business.jpeg); 
 	background-size: cover;	
@@ -450,6 +507,7 @@ body {
 	    flex-wrap: wrap;	
 	margin: auto;
 	padding-bottom: 100px;
+	padding-left: 20px;
 }
 
 .container-link__content {
@@ -458,32 +516,40 @@ body {
 }
 
 .container-link__content-i {
-	color: #67AD00;
+	color: #68ae00;
 	font-size: 55px;
 }
 
 .container-link__content-h1 {
-	color: #67AD00;
-	font-size: 36px;	
+	color: #68ae00;
+	font-size: 48px;	
 	margin: 0;
 	padding: 0;
-	padding-top: 50px;
+	padding-top: 77px;
 	line-height: 10px;
 }
 
 .container-link__content-p {
 	font-size: 30px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 .container-link__content-pp {
 	font-size: 24px;
 	font-weight: 700;
+	margin: 13px;
+}
+
+.container-link__content-s {
+	margin: 2px;
+	padding-right: 15px;
 }
 
 .container-link__content_text {
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 2px;
+	margin-bottom: 8px;
 }
 
 .container-link__content-csh {
@@ -493,12 +559,13 @@ body {
 ------------------------------------------/*footer*/
 
 .footer_links {
-
+	width: 100%;
+	height: 550px;
 }
 
 .footer__links {	
-	height: 550px;
 	background: #404348;
+	padding: 90px 0;
 }
 
 .footer__link_container {
@@ -518,12 +585,17 @@ body {
 	background: #404348;
 }
 
+.footer__container2,
+.footer__container3 {
+	padding-left: 10px;
+}
+
 .footer__container_before {
 	display: none;
 }
 
 .footer__container {	
-	margin: 0 3%;
+	margin-left: 10px;
 	color: #E9E9E9;
 	text-transform: lowercase;
 }
@@ -534,8 +606,7 @@ body {
 	font-weight: 700;
 	text-align: right;
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }
 
 .footer__fa-elem {
@@ -548,7 +619,7 @@ body {
 .fa-google-plus-g {
 	color: #E9E9E9;
 	font-size: 30px;
-	margin: 10px 0 30px 20px;
+	margin: 13px 3px 38px 20px;
 }
 
 .footer__container_ul {
@@ -601,9 +672,10 @@ body {
 .footer__input {
 	background-color: #E9E9E9;
 	text-align: right;
-	width: 280px;
+	width: 257px;
 	padding-right: 5px;
 	font-size: 16px;
+	border: none;
 }
 
 .footer__mobile {
@@ -622,24 +694,23 @@ body {
 }
 
 .footer__line-green {
-	height: 90px;	
-	background-color: #67AD00;
-	line-height: 85px;
+	height: 100px;	
+	background-color: #67AD00;	
 }
 
 .footer__line-text {
-	font-size: 28px;
+	font-size: 30px;
 	margin: 0;
 	padding: auto;
 	color: #fff;	
 	text-align: center;
-	line-height: 90px;		
+	line-height: 100px;		
 }
 
 --------------
 
 .footer__end {
-	height: 300px;	
+	height: 350px;	
 }
 
 .footer__fpart {	
@@ -653,6 +724,8 @@ body {
 }
 
 .footer__spart {
+	font-size: 18px;
+	padding-top: 12px;
 	padding-bottom: 25px;
 	text-align: center;
 	background-color: #FCFCFC;

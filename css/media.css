@@ -45,7 +45,7 @@
 
 	.fa-bars {
 		color: #404347;
-		font-size: 50px;
+		font-size: 36px;
 	}
 
 	.fa-bars:hover {
@@ -58,12 +58,17 @@
 	}
 
 	.header__logo_menu {
-		margin: 20px;
+		margin: 37px 10px 20px 3px;
 	}	
 
 	.header__logo {
 		margin-left: 0;
 		margin-right: 0;
+		margin-top: 22px;
+	}
+
+	.header__logo img {
+		width: 90px;
 	}
 	
 	.flex {
@@ -78,7 +83,7 @@
 		position: absolute;
 		width: 300px;
 		margin-left: -500px;
-		top: 90px;
+		top: 70px;
 		background-color: #FCFCFC;
 		padding: 0;
 		padding-right: 20px;
@@ -137,7 +142,7 @@
 		margin-top: 20px;		
 		font-size: 48px;
 		font-weight: 700;
-		line-height: 55.759px;
+		line-height: 40px;
 		text-align: center;
 	}	
 
@@ -149,6 +154,7 @@
 		width: 230px;
 		height: auto;
 		margin: auto;
+		margin-top: 5px;
 	}
 
 	.mobile__text {
@@ -157,12 +163,12 @@
 		font-size: 36px;
 		font-weight: 400;
 		line-height: 30px;
-		text-align: left;
-		
+		text-align: left;		
 	}
 
 	.mobile__text_d {
-		margin-top: 60px;
+		margin-top: 45px;
+		margin-left: 20px;
 	}
 
 	.mobile__right {		
@@ -170,7 +176,7 @@
 		margin: auto;
 		padding-left: 100px;
 		font-size: 35.94px;
-		
+		margin-top: 11px;
 	}
 	
 	.mobile__num {
@@ -178,30 +184,41 @@
 		font-size: 136.73px;
 		font-weight: 400;
 		line-height: 75px;
-		text-align: left;		
+		text-align: left;
+		letter-spacing: -10px;
+		margin-left: -12px;	
 	}
 
 	.mobile__text_end {
 		font-size: 24px;
-		font-weight: 400;
-		line-height: 30px;
+		font-weight: 400;		
 		text-align: center;
+		margin-top: 13px;
 	}
 
 	.mobile__main_button {
 		margin-bottom: 20px;
 	}
 	
-	/* .fa-chevron-circle-down {
-		margin-bottom: 20px;
-	} */
-
 	.container-links {
 		display: none;
 	}
 
+	.container__image {
+		width: 100%;
+	    padding: 0;
+	    margin: 0;
+	    margin-top: 18px;
+	    margin-bottom: 22px;
+	}
+
 	.container__image-li {
+		width: auto; 
 		text-align: center;
+		height: auto;
+	    margin: 0;
+	    padding: 0;
+	    margin-bottom: 20px;
 	}	
 
 	.container__image-li img { 	
@@ -225,9 +242,16 @@
 
 	.footer__fa-elem_mobile {		
 		width: auto;
-		margin: auto;
 		margin: 0;
-		padding-right: 15px;		
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    margin-bottom: 41px;		
+	}
+
+	.fa-size {
+		width: 28px;
+		height: 50px;
 	}
 
 	.footer__fa-elem_mobile .fab {
@@ -237,14 +261,15 @@
 	.footer__mobile {
 		display: block;
 		margin: 0;
+		width: 100%;
 	}
 
 	.footer__container_h1-mobile {
 		text-align: center;
 		margin: auto;
 		color: #8BDB00;
-		margin-bottom: 10px;
-		font-size: 24px;
+		margin-bottom: 12px;
+		font-size: 30px;
 		font-weight: 700;
 	}
 
@@ -261,7 +286,7 @@
 
 	.footer-search__input {
 		margin: 0;
-		height: 52px;
+		height: 59px;
 	}
 
 	.fa-paper-plane {
@@ -269,19 +294,23 @@
 	}
 
 	.footer__input {
-		height: 50px;
-		width: 220px;
+		height: 57px;
+		width: 230px;
     	border: none;
 	}
 	
 	.footer__search_button {
-		line-height: 
+		margin-right: 2px;
+		padding: 0 17px; 
+		height: 59px;
+		width: 61px;
 	}
 
 	.footer__after-sch {
 		display: block;
 		text-align: center;
-		margin-top: 30px;	
+		margin-top: 47px;	
+		margin-bottom: 10px;	
 	}
 
 	.footer__after-sch_txt {
@@ -299,7 +328,7 @@
 		display: flex;
     	flex-direction: row;
     	justify-content: center;
-		height: 101px;
+		height: 110px;
 		background-color: #68af00;
 		padding-top: 1px;
 	}
@@ -310,7 +339,7 @@
 		margin: 20px auto;
 		padding: 0;
 		color: #fff;
-		font-size: 22px;
+		font-size: 24px;
 		position: absolute;
 	}
 
@@ -332,21 +361,20 @@
 		font-feature-settings: 'liga';
 		position: relative;
 		left: 110px;
-		top: -25px;
+		top: -17px;
 	}	
 
 	.footer__container_bnum {
-		width: 95px;
+		width: 100px;
 		border-bottom: 2px dotted #fff;
 		position: relative;
-		top: 8px;
-		left: 10px;
+		top: 14px;		
 	}
 
 	.footer__container_b {
 		position: absolute;
-		top: 29px;
-		left: 155px;
+		top: 38px;
+		left: 157px;
 	}
 
 	.footer__end * {
@@ -358,21 +386,37 @@
 		padding-top: 20px;
 	}
 
+	.footer__link {
+		padding: 0;
+	}
+
 }
 
 @media all and (max-width: 630px) {
 
 	.container__header {
-		padding-top: 102px;
+		display: none;
+	}
+	
+	.container__pre-header {
+		display: block;
+		text-align: right;
+		padding: 0;
+	    margin: 0;
+	    padding-top: 30px;	    
 	}
 
 	.container__header_h1 {
 		font-size: 36px;		
 		line-height: 30px;
+		margin: 0;
+    	margin-top: 10px;
+    	margin-right: 2px;
 	}
 
 	.container__header_p {
 		font-size: 22px;
-		line-height: 24px;
+		line-height: 22px;
+		margin: 10px 0;
 	}
 }
